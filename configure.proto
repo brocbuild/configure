@@ -1,0 +1,4 @@
+message Configure {
+    required string configure_name = 1;
+    required string configure_value = 2;
+}
