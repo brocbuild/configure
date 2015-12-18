@@ -1,4 +1,4 @@
 #edit-mode: -*- python -*-
 #coding:utf-8
 
-PROTO_LIBRARY("configure", "configure.proto", Include("/home/users/liruihao/broc/protobuf/include"))
+PROTO_LIBRARY("configure", "configure.proto", Include("/opt/protobuf/include"))
