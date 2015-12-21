@@ -1,4 +1,4 @@
 #edit-mode: -*- python -*-
 #coding:utf-8
-
-PROTO_LIBRARY("configure", "configure.proto", Include("/Users/baidu/protobuf/include"))
+import os
+PROTO_LIBRARY("configure", "configure.proto", Include("%s/protobuf/include" % os.environ['HOME']))
